@@ -10,7 +10,7 @@ colour = colour.lower()
 if colour == "cyan":
    print("I know that colour is amazing")
 if colour != "cyan":
-   print("hmm... I dont think that colour is good enough to be favourite")
+   print("hmm... I dont think that colour is good enough to be favourite")\
   
 while True:
   age = input("Can you tell me that ,How old are you?  ")
