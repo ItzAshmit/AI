@@ -70,7 +70,7 @@ while True:
       
       
        if "spt" in gam:
-       print("self explanatory stone paper scissors, the legendry game of choice in which Rock crushes scissors, scissors cuts paper, and paper covers rock. If both players make the same decision, it's a tie. ")
+        print("self explanatory stone paper scissors, the legendry game of choice in which Rock crushes scissors, scissors cuts paper, and paper covers rock. If both players make the same decision, it's a tie. ")
        while True:
          
           cor = input(" choice s for scissors, p for paper and st for stone  ")
