@@ -1,7 +1,7 @@
 import random
 
 print("hello!")
-print("My anme is timhsa")
+print("My name is timhsa")
 name = input("and yours?  ")
 print(f"really {name}! sounds like a name of a human")
 print("I love cyan colour so i use them in all of my things")
@@ -77,8 +77,33 @@ while True:
           c_c = random.choice(["st","p","s"])
           if cor == c_c:
              print("it's a tie")
-          if cor != c_c:
-             print("sorry'but better luck next time")
+          if cor == "st" and c_c == "p":
+             print("sorry'but better luck next time. computer choose paper")
+          if cor == "st" and c_c == "s":
+             print("congrats! you win. computer choose scissors")
+          if cor == "p" and c_c == "st":
+             print("congrats! you win. computer choose stone")
+          if cor == "p" and c_c == "s":
+             print("sorry'but better luck next time. computer choose scissors. computer choose scissors")
+          if cor == "s" and c_c == "st":
+             print("sorry'but better luck next time. computer choose stone. computer choose stone")
+          if cor == "s" and c_c == "p":
+             print("congrats! you win. computer choose paper")
+          
+          
+          retryspt = input("Want to play again?  ")
+          if "no" in retryspt:
+            break
+          if "yes" in retryspt:
+            continue
+          if "yes" in retryspt and "no" in retryspt or "yes" not in retryspt and "no" not in retryspt:
+            print("Bro try to type yes or no")
+          
+          
+          
+          
+          
+          
           if cor != "st" or "p" or "s":
             print("bro type st for stone, p for paper and s for scissors")
           
